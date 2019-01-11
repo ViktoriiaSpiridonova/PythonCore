@@ -1,0 +1,6 @@
+n = input("What is your name?")
+print("Hello, " +n +"!")
+a = input("How old are you?")
+print("Your age is " +a)
+l = input("Where do you live?")
+print("You live in "+l)
