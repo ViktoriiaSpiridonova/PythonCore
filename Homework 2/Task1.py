@@ -21,3 +21,6 @@ Namespaces are one honking great idea -- let's do more of those!""")
 print("Number of word 'Better' = ", zen.count("better"))
 print("Number of word 'Never' = ", zen.count("never"))
 print("Number of word 'Is' = ", zen.count("is"))
+
+print(zen.upper())
+print(zen.replace("i", "&"))
