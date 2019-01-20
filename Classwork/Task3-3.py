@@ -10,9 +10,3 @@ if contain_odd:
     print('There are odd numbers in list')
 else:
     print('There are only even numbers in list')
-
-
-list = [2, 1, 4, 6, 1, 4, 8, 6]
-for i in range(len(list)):
-    list[i] = float(list[i])
-print(list) 
