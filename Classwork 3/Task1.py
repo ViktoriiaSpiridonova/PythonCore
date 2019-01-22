@@ -7,4 +7,6 @@ or
 
 list = [1, 89, 80, 65, 17]
 x=max(list)
+y=min(list)
 print("The maximum number from list is ", x)
+print("The minimum number in list is ", y)
