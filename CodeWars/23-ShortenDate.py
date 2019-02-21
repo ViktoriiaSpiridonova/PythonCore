@@ -6,7 +6,7 @@
 # Assume shortenToDate's output will be the shortened string, e.g., "Friday May 2".
 
 def shorten_to_date(long_date):
-    long_date = long_date.split(",")
-    del long_date[-1]
-    long_date =' '.join(long_date)
-    return long_date
+    new_date = long_date.split(",")
+    del new_date[-1]
+    short_date =' '.join(new_date)
+    return short_date
